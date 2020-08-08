@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:hover {
+  color: #F13620;
+  text-decoration: none;
+}

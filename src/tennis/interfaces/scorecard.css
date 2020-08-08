@@ -1,0 +1,52 @@
+.scoresHeading,
+.playerRow {
+    font-size: 20px;
+    border: 5px double black;
+    border-top: none;
+}
+
+.scoresHeading {
+    font-weight: bold;
+    border-top: 5px double black;
+}
+
+.scoresHeading .col-3 {
+    background-color: #F13620;
+    color: #fff;
+}
+
+.playerRow .col-3 {
+    background-color: #D79922;
+    color: #EFE2BA;
+}
+
+.scoresHeading .col-3,
+.playerRow .col-3 {
+    padding: 2%;
+}
+
+.playerRow div:nth-child(2) {
+    opacity: 0.9;
+}
+
+.playerRow div:nth-child(3) {
+    opacity: 0.8;
+}
+
+.playerRow div:nth-child(4) {
+    opacity: 0.7;
+}
+
+
+.scoringButtons {
+    max-width: 400px;
+    max-height: 400px;
+    padding: 20%;
+    margin: 10%;
+    background: #C5CBE3;
+}
+
+.scoringButtons:hover {
+    color: #fff;
+    background: #4056A1;
+}
