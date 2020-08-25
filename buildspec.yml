@@ -10,8 +10,8 @@ phases:
       - npm install
   build:
     commands:
-      - echo Unit tests started on `date`...
-      - npm test
+      -  # echo Unit tests started on `date`...
+      -  # npm test
       - echo Build started on `date`...
       - npm run build
 #   post_build:
